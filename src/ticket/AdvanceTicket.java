@@ -2,8 +2,12 @@ package ticket;
 
 /**
  * Created by mhan on 12/3/2016.
+ * Advance tickets purchased 10 or more days before the event
+ *   has 40% discount than Ticket,
+ *   and advance tickets purchased fewer than 10 days before the event has 20% discount.
  */
 public class AdvanceTicket extends Ticket{
+
     public AdvanceTicket(int number, int daysAdvanced) {
         this(number, 50, daysAdvanced);
     }

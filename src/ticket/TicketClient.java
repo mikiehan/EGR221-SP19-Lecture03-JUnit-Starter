@@ -3,6 +3,7 @@ package ticket;
 import java.util.Random;
 
 /**
+ *
  * Created by mhan on 10/28/2016.
  */
 public class TicketClient {
